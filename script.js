@@ -32,3 +32,11 @@ if (document.getElementById("memberForm")) {
     alert("Data berhasil disimpan!");
   });
 }
+
+function playAudio() {
+  document.getElementById("audio").play();
+}
+
+function pauseAudio() {
+  document.getElementById("audio").pause();
+}
