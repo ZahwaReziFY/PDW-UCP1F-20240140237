@@ -14,3 +14,18 @@ body {
   opacity: 1;
   transition: opacity 0.3s ease;
 }
+
+@keyframes bgMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body.fade-in { opacity: 1; }
+body.fade-out { opacity: 0; }
