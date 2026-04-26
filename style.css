@@ -224,3 +224,24 @@ iframe {
 .hero-content {
   text-align: center;
 }
+
+.hero-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* jarak atas & bawah */
+}
+
+.hero-img img {
+  width: 70%;
+  max-width: 850px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: 0.4s;
+}
