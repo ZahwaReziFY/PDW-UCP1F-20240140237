@@ -311,3 +311,14 @@ iframe {
   background: #ff1f1f;
   transform: scale(1.05);
 }
+
+.about {
+  text-align: center;
+  padding: 40px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  color: #ccc;
+}
