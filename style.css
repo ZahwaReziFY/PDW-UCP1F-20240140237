@@ -297,3 +297,17 @@ iframe {
   text-align: center;
   margin: 30px 0;
 }
+
+.btn {
+  padding: 12px 25px;
+  background: #e50914;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff1f1f;
+  transform: scale(1.05);
+}
