@@ -245,3 +245,9 @@ iframe {
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   transition: 0.4s;
 }
+
+.hero-content p {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: #ccc;
+}
