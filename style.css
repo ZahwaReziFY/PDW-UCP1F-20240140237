@@ -53,3 +53,13 @@ nav a {
 nav a:hover {
   color: white;
 }
+
+.hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #fff;
+}
