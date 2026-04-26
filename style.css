@@ -127,3 +127,7 @@ button:hover {
   background: #ff1f1f;
   transform: scale(1.05);
 }
+
+.gallery-container {
+  padding: 40px;
+}
