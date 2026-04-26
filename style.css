@@ -141,3 +141,11 @@ button:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
+
+.member {
+  text-align: center;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
