@@ -168,3 +168,8 @@ button:hover {
   border-color: #e50914;
   box-shadow: 0 0 15px rgba(229,9,20,0.6);
 }
+
+.member p {
+  margin-top: 10px;
+  font-weight: 600;
+}
