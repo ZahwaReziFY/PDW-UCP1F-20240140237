@@ -135,3 +135,9 @@ button:hover {
 .card {
   margin-bottom: 30px;
 }
+
+.member-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
