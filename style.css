@@ -92,3 +92,22 @@ tr {
 tr:hover {
   background: #2a2a2a;
 }
+
+.form-container {
+  width: 340px;
+  margin: 100px auto;
+  text-align: center;
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+input, select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+}
