@@ -149,3 +149,13 @@ button:hover {
   border-radius: 12px;
   transition: 0.3s;
 }
+
+.member img {
+  width: 100%;
+  max-width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #333;
+  transition: 0.3s;
+}
