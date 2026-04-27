@@ -18,18 +18,49 @@ document.querySelectorAll("a").forEach(link => {
   });
 });
 
-if (document.getElementById("memberForm")) {
-  document.getElementById("memberForm").addEventListener("submit", function(e){
-    e.preventDefault();
+let members = [
+  { nama: "Zahwa", email: "zahwa@gmail.com", minat: "Web Development" },
+  { nama: "Citra", email: "citra@gmail.com", minat: "UI/UX Design" }
+];
 
-    let nama = document.getElementById("nama").value;
-    let email = document.getElementById("email").value;
-    let minat = document.getElementById("minat").value;
+document.addEventListener("DOMContentLoaded", function () {
+  renderTable();
 
-    document.getElementById("result").innerHTML =
-      `<p>Berhasil: ${nama} - ${email} - ${minat}</p>`;
+  let form = document.getElementById("memberForm");
 
-    alert("Data berhasil disimpan!");
+  if (form) {
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+
+      let nama = document.getElementById("nama").value;
+      let email = document.getElementById("email").value;
+      let minat = document.getElementById("minat").value;
+
+      members.push({ nama, email, minat });
+
+      renderTable();
+
+      form.reset();
+      alert("Data berhasil disimpan!");
+    });
+  }
+});
+
+function renderTable() {
+  let tbody = document.querySelector("#memberTable tbody");
+
+  if (!tbody) return;
+
+  tbody.innerHTML = "";
+
+  members.forEach(m => {
+    tbody.innerHTML += `
+      <tr>
+        <td>${m.nama}</td>
+        <td>${m.email}</td>
+        <td>${m.minat}</td>
+      </tr>
+    `;
   });
 }
 
